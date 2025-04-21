@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <div>
         <header>
-            <div className="container max-sm:800px">
-                <nav style={{marginTop: '27px'}} className="nav flex justify-evenly items-center ">
+            <div className="container max-sm:400px">
+                <nav style={{marginTop: '27px'}} className="nav flex justify-between items-center ">
                     <div className="logo">
                         <img src={Frame} alt="" />
                     </div>
@@ -29,10 +29,10 @@ const Navbar = () => {
         </header>
         <main>
             <div className="container">
-                <div style={{marginTop: '70px'}} className="main flex items-center max-sm:flex-col">
+                <div style={{marginTop: '70px'}} className="main flex items-start max-sm:flex-col w-full">
                     <div className="main__left flex flex-col gap-18 max-sm:flex-col">
                         <div className="main__top flex flex-col gap-7">
-                            <h1 className='font-bold text-[74px] leading-20 w-[600px]'>Get your finances right</h1>
+                            <h1 className='font-bold text-[74px] leading-20 w-full max-sm:w-full'>Get your finances right</h1>
                             <p className='text-[20px] w-[476px]'>Get your finances right with Accountancy Cloud. We offer the best accounting, R&D credits and CFO services for ambitious businesses who want to grow.</p>
                         </div>
                         <div className="main__bottom flex flex-col gap-5">
