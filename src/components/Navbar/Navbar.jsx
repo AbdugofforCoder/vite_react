@@ -13,7 +13,7 @@ const Navbar = () => {
                     </div>
                     <div className="links flex gap-10 font-medium max-sm:hidden block">
                         <a href="">Home</a>
-                        <a href="">How it works</a>
+                        <a href="">How it worksa</a>
                         <a href="">What we do</a>
                         <a href="">Who we help</a>
                         <a href="">Resources</a>
